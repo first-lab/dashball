@@ -74,9 +74,9 @@ return array(
 				array(
 					'class'=>'CWebLogRoute',
 				),
+				*/
 			),
 		),
-				*/
 	),
 
 	// application-level parameters that can be accessed

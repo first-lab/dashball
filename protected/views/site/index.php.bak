@@ -9,13 +9,6 @@
 /* @var $this SiteController */
 
 $this->pageTitle=Yii::app()->name;
-			$this->menu=array(
-    array(
-            'label'=>'<span class="title"><strong>Project Actions</strong></span>',
-            'url'=> '#'),
-    array('label'=>'<i class="icon-plus"></i> Create A New Project', 'url'=>array('site/index')),
-    array('label'=>'<i class="icon-archive"></i> View Archived Projects', 'url'=>'#'),
-);
 ?>
 
 <h1>Welcome to <i><?php echo CHtml::encode(Yii::app()->name); ?></i></h1>
