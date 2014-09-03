@@ -15,15 +15,25 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
 
-	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
+	<title>Dash Ball</title>
 </head>
 
 <body>
 
 <div class="container" id="page">
+	<div id="socmed">
+		<div id="contentSocmed">
+		FB
+		</div>
+		
+		<div id="contentSocmed">
+		Twitter
+		</div>
+		
+	</div>
 
 	<div id="header">
-		<div id="logo"><?php echo CHtml::encode(Yii::app()->name); ?></div>
+		<div id="logo">DashBall</div>
 	</div><!-- header -->
 
 	<div id="mainmenu">
