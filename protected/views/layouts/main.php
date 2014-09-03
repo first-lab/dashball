@@ -39,11 +39,10 @@
 	<div id="mainmenu">
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
-				array('label'=>'UCL', 'url'=>array('/site/index')),
-				array('label'=>'UEL', 'url'=>array('/site/contact')),
-				array('label'=>'FA Cup', 'url'=>array('/site/contact')),
-				array('label'=>'Copa Del Rey', 'url'=>array('/site/contact')),
-				array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
+				array('label'=>'UCL', 'url'=>array('/uCL/index')),
+				array('label'=>'UEL', 'url'=>array('/uEL/index')),
+				array('label'=>'FA Cup', 'url'=>array('/fACup/index')),
+				array('label'=>'Copa Del Rey', 'url'=>array('/copaDelRey/index')),
           			),
 		)); ?>
 	</div><!-- mainmenu -->

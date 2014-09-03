@@ -11,9 +11,7 @@ $this->breadcrumbs=array(
 	'id'=>'match-grid',
 	'dataProvider'=>$model->search(),
 	'columns'=>array(
-		'dueDate',
-		'team1Name',
-		'team2Name',
+		'stadiumId',
 		'stadiumName',
 	),
 )); ?>
