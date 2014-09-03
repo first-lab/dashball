@@ -18,17 +18,75 @@ $this->pageTitle=Yii::app()->name;
 );
 ?>
 
-<h1>Welcome to <i><?php echo CHtml::encode(Yii::app()->name); ?></i></h1>
+<div id="menuJadwal">
+	<div id="tombolJadwal">
+	<?php echo CHtml::link('Jadwal Minggu Lalu',array('site/index')); ?>
+	</div>
+	
+	<div id="tombolJadwal">
+	<?php echo CHtml::link('Jadwal Minggu Ini',array('site/index')); ?>
+	</div>
+	
+	<div id="tombolJadwal">
+	<?php echo CHtml::link('Jadwal Minggu Depan',array('site/index')); ?>
+	</div>
+</div>
+<br/>
 
-<p>Congratulations! You have successfully created your Yii application.</p>
+<div id="klasemen">
+<table>
+		<tr>
+			<th>Primier League</th>
+			<th>P </th>
+			<th>Pts </th>
+			
+		</tr>
+		<tr>
+		<td>Manchester</td>
+			<td>34 </td>
+			<td>67 </td>
+		</tr>
+		<tr>
+		<td>Chelase</td>
+			<td>4 </td>
+			<td>56 </td>
+		</tr>
+	</table>
+</div>
 
-<p>You may change the content of this page by modifying the following two files:</p>
-<ul>
-	<li>View file: <code><?php echo __FILE__; ?></code></li>
-	<li>Layout file: <code><?php echo $this->getLayoutFile('main'); ?></code></li>
-</ul>
-
-<p>For more details on how to further develop this application, please read
-the <a href="http://www.yiiframework.com/doc/">documentation</a>.
-Feel free to ask in the <a href="http://www.yiiframework.com/forum/">forum</a>,
-should you have any questions.</p>
+<div id="contentJadwal">
+	<h1 id="judulMenu">
+	Judul Menu Aktiv
+	</h1>
+	<hr/>
+	
+	<p>Hari Pertandingan I</p>
+	<table>
+		<tr>
+			<th>Jadwal Pertandingan</th>
+			<th>Tim A </th>
+			<th>Vs </th>
+			<th>Tim B </th>
+			<th>Hasil </th>
+		</tr>
+	</table>
+	
+	<p>Hari Pertandingan II</p>
+	<table>
+		<tr>
+			<td>Jadwal Pertandingan</td>
+			<td>Tim A </td>
+			<td>Vs </td>
+			<td>Tim B </td>
+			<td>Hasil </td>
+		</tr>
+		<tr>
+			<td>Jadwal Pertandingan</td>
+			<td>Tim A </td>
+			<td>Vs </td>
+			<td>Tim B </td>
+			<td>Hasil </td>
+		</tr>
+	</table>
+	
+</div>

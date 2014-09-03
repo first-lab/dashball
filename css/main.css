@@ -17,6 +17,7 @@ body
 
 #header
 {
+	height:100px;
 	margin: 0;
 	padding: 0;
 	border-top: 3px solid #C9E0ED;
@@ -29,7 +30,7 @@ body
 
 #sidebar
 {
-	padding: 20px 20px 20px 0;
+	
 }
 
 #footer
@@ -226,4 +227,34 @@ div.search-form
 .operations li a:hover
 {
 	background: #80CFFF;
+}
+
+#contentJadwal
+{
+width:60%;
+}
+#contentSocmed
+{
+
+margin:5px;
+}
+
+table, th, td {
+border: 1px solid black;
+	
+}
+th
+{
+
+}
+
+#tombolJadwal
+{
+float:left;
+
+}
+
+#klasemen
+{
+float:right;
 }
