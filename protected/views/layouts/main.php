@@ -21,17 +21,6 @@
 <body>
 
 <div class="container" id="page">
-	<div id="socmed">
-		<div id="contentSocmed">
-		FB
-		</div>
-		
-		<div id="contentSocmed">
-		Twitter
-		</div>
-		
-	</div>
-
 	<div id="header">
 		<div id="logo">DashBall</div>
 	</div><!-- header -->

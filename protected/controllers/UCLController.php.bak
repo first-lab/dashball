@@ -4,9 +4,7 @@ class UCLController extends Controller
 {
 	public function actionIndex()
 	{
-		$MatchNewsModel = new Matchnews;
-		$roundNumber=1;
-		$MatchNewsModel = Matchnews::model()->findAllByAttributes(array('numbRound'=>$roundNumber));
+
 		$this->render('index');
 	}
 

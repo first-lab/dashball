@@ -15,25 +15,34 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
 
-	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
+	<title>Dash Ball</title>
 </head>
 
 <body>
 
 <div class="container" id="page">
+	<div id="socmed">
+		<div id="contentSocmed">
+		FB
+		</div>
+		
+		<div id="contentSocmed">
+		Twitter
+		</div>
+		
+	</div>
 
 	<div id="header">
-		<div id="logo"><?php echo CHtml::encode(Yii::app()->name); ?></div>
+		<div id="logo">DashBall</div>
 	</div><!-- header -->
 
 	<div id="mainmenu">
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
-				array('label'=>'UCL', 'url'=>array('/site/index')),
-				array('label'=>'UEL', 'url'=>array('/site/contact')),
-				array('label'=>'FA Cup', 'url'=>array('/site/contact')),
-				array('label'=>'Copa Del Rey', 'url'=>array('/site/contact')),
-				array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
+				array('label'=>'UCL', 'url'=>array('/uCL/index')),
+				array('label'=>'UEL', 'url'=>array('/uEL/index')),
+				array('label'=>'FA Cup', 'url'=>array('/fACup/index')),
+				array('label'=>'Copa Del Rey', 'url'=>array('/copaDelRey/index')),
           			),
 		)); ?>
 	</div><!-- mainmenu -->
