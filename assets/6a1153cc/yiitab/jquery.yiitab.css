@@ -1,9 +1,9 @@
 .yiiTab ul.tabs
 {
-    padding: 2px 0;
+    padding: 0px 0;
     margin: 0;
-    border-bottom: 1px solid #4F81BD;
-    font: bold 12px Verdana, sans-serif;
+    font: normal 12px Verdana, sans-serif;
+	background: #d3dfee;
 }
 
 .yiiTab ul.tabs li
@@ -17,9 +17,9 @@
 {
 	-moz-border-radius-topleft:5px;
 	-moz-border-radius-topright:5px;
-    padding: 2px 0.5em;
-    margin: 0 0 0 3px;
-    border: 1px solid #4F81BD;
+    padding-left: 5px;
+	padding-right: 5px;
+    margin: 0 0 0 0px;
     border-bottom: none;
     background: #d3dfee;
     text-decoration: none;
@@ -50,9 +50,6 @@
 
 .yiiTab div.view
 {
-    border-left: 1px solid #4F81BD;
-    border-right: 1px solid #4F81BD;
-    border-bottom: 1px solid #4F81BD;
-    padding: 8px;
+    padding: 0px;
     margin: 0;
 }

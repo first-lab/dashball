@@ -3,6 +3,9 @@
 // uncomment the following to define a path alias
 // Yii::setPathOfAlias('local','path/to/local-folder');
 
+Yii::setPathOfAlias('bootstrap', dirname(__FILE__).'/../extensions/bootstrap');
+ 
+
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
 return array(
@@ -29,7 +32,7 @@ return array(
 		),
 		
 	),
-
+	
 	// application components
 	'components'=>array(
 		'user'=>array(
@@ -83,6 +86,6 @@ return array(
 	// using Yii::app()->params['paramName']
 	'params'=>array(
 		// this is used in contact page
-		'adminEmail'=>'webmaster@example.com',
+		'adminEmail'=>'lewissibarani@gmail.com',
 	),
 );

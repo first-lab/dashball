@@ -4,7 +4,15 @@ body
 	padding: 0;
 	color: #555;
 	font: normal 9pt Calibri,Helvetica,sans-serif;
-	background: #EFEFEF;
+	
+	background: rgba(255,255,255,1);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
 }
 
 #page
@@ -13,6 +21,14 @@ body
 	margin-bottom: 5px;
 	background: white;
 	border: 1px solid #C9E0ED;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 0px solid #000000;
+
+	-webkit-box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.75);
 }
 
 #header
@@ -28,16 +44,10 @@ width:470px;
 background:#9c9;
 padding: 10px;
 }
-#sidebar {
-float:right;
-width:200px;
-background:#c9c;
-padding: 10px;
-}
 
 #content
 {
-    padding: 0px;
+    padding: 6px;
 }
 
 #footer
@@ -247,29 +257,12 @@ width:60%;
 margin:5px;
 }
 
-table, th, td {
-border: 1px solid black;
-	
-}
-th
-{
-
-}
-
 #tombolJadwal
 {
 float:left;
 
 }
 
-#klasemen
-{
-float:right;
-}
-
-#group{
-width:460px;
-}
 
 #weekmenu{
 text-align:center;
@@ -291,3 +284,108 @@ margin:0 auto;
 background:#99c;
 }
 
+#weekmenu ul {
+list-style: none;
+padding:0;
+margin:0;
+}
+
+#weekmenu li {
+display: inline;
+border: solid;
+border-width: 1px 1px 0 1px;
+margin: 0 0.5em 0 0;
+}
+
+#weekmenu li a {
+padding: 0 1em;
+}
+
+
+#weekmenu #selected {
+padding-bottom: 1px; 
+background: white;
+}
+
+#weekmenu li {
+float: left;
+border: 1px solid;
+border-bottom-width: 0;
+margin: 0 0.5em 0 0;
+}
+
+#weekmenu #selected {
+	position: relative;
+	top: 1px;
+	background: white;
+}
+
+h1.jadwal
+{
+border: 1px solid #ff9900;
+margin-bottom:0px;
+padding:5px;
+color:white;
+background: rgba(241,231,103,1);
+background: -moz-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(241,231,103,1)), color-stop(100%, rgba(254,182,69,1)));
+background: -webkit-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+background: -o-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+background: -ms-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+background: linear-gradient(to right, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=1 );
+}
+
+#group{
+width:67%;
+}
+
+table.tabelJadwal
+{
+border-collapse:collapse;
+
+}
+
+table.tableJadwal tr, table.tableJadwal td
+{
+border-bottom: 1px solid #98bf21;
+}
+
+td.group
+{
+background:#6b6b6b;
+color:white;
+}
+
+#sidebar {
+float:right;
+width:32%;
+background:white;
+border: 1px solid #d4d4d4;
+}
+
+h3.klasemen
+{
+color:white;
+padding:5px;
+margin:0px;
+background: rgba(173,173,173,1);
+background: -moz-linear-gradient(left, rgba(173,173,173,1) 0%, rgba(43,43,43,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(173,173,173,1)), color-stop(100%, rgba(43,43,43,1)));
+background: -webkit-linear-gradient(left, rgba(173,173,173,1) 0%, rgba(43,43,43,1) 100%);
+background: -o-linear-gradient(left, rgba(173,173,173,1) 0%, rgba(43,43,43,1) 100%);
+background: -ms-linear-gradient(left, rgba(173,173,173,1) 0%, rgba(43,43,43,1) 100%);
+background: linear-gradient(to right, rgba(173,173,173,1) 0%, rgba(43,43,43,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#adadad', endColorstr='#2b2b2b', GradientType=1 );
+}
+
+table.klasemen 
+{
+border-collapse:collapse;
+}
+
+table.klasemen tr , table.klasemen td
+{
+text-align: center;
+border-bottom: 1px solid #98bf21;
+}
