@@ -15,7 +15,10 @@
 
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
+<<<<<<< HEAD
 	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+=======
+>>>>>>> origin/master
 	<title>Dash Ball</title>
 </head>
 <body>
