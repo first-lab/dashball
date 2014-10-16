@@ -1,6 +1,5 @@
 body
 {
-	margin: 0;
 	padding: 0;
 	color: #555;
 	font: normal 9pt Calibri,Helvetica,sans-serif;
@@ -44,7 +43,7 @@ padding: 10px;
 {
 	clear:both;
 	padding: 10px;
-	margin: 10px 20px;
+	margin: 10px;
 	font-size: 0.8em;
 	text-align: center;
 	border-top: 1px solid #C9E0ED;
@@ -291,3 +290,6 @@ margin:0 auto;
 background:#99c;
 }
 
+.dropdown{
+	position: relative;
+}

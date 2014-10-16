@@ -1,4 +1,5 @@
 <?php /* @var $this Controller */ ?>
+ <?php Yii::app()->bootstrap->registerAllCss(); ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
@@ -14,36 +15,42 @@
 
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
-
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<title>Dash Ball</title>
 </head>
-
 <body>
-
-<div class="container" id="page">
-	<div id="header">
-		<div id="logo">DashBall</div>
-	</div><!-- header -->
-
-	<div id="mainmenu">
-		<?php $this->widget('zii.widgets.CMenu',array(
-			'items'=>array(
-				array('label'=>'UCL', 'url'=>array('/uCL/index')),
-				array('label'=>'UEL', 'url'=>array('/uEL/index')),
-				array('label'=>'FA Cup', 'url'=>array('/fACup/index')),
-				array('label'=>'Copa Del Rey', 'url'=>array('/copaDelRey/index')),
-          			),
-		)); ?>
-	</div><!-- mainmenu -->
-	<?php if(isset($this->breadcrumbs)):?>
-		<?php $this->widget('zii.widgets.CBreadcrumbs', array(
-			'links'=>$this->breadcrumbs,
-		)); ?><!-- breadcrumbs -->
-	<?php endif?>
-
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<div class="container">
+<div class="row-fluid">
+  <div class="span9"><h1>Dashball.com</h1></div>
+</div>
+<div class="row-fluid">
+  <div class="span12">
+	<ul class="nav nav-tabs">
+	  <li class="active">
+	    <a href="#">Home</a>
+	  </li>
+	  <li><a href="#">Add My Favourite...</a></li>
+	</ul>
+  </div>
+</div>
+<div class="row-fluid">
+  <div class="span2">
+  	<ul class="nav nav-pills nav-stacked">
+      <li><a href="#">Jadwal Pertandingan</a></li>
+      <li><a href="#">Klasemen</a></li>
+      <li><a href="#">Statistik</a></li>
+      <li><a href="#">Info Tim</a></li>
+	</ul>
+  </div>
+  <div class="span9">
 	<?php echo $content; ?>
+  </div>
+</div>
 
-	<div class="clear"></div>
+
+
 
 	<div id="footer">
 		Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>

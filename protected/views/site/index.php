@@ -34,7 +34,7 @@ $this->pageTitle=Yii::app()->name;
 <br/>
 
 <div id="klasemen">
-<table>
+<table class="table">
 		<tr>
 			<th>Primier League</th>
 			<th>P </th>
