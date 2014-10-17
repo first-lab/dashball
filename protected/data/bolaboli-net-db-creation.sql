@@ -6,7 +6,7 @@ create database bolabolidotnetdb;
 		nationalityId integer(5),
 		doB timestamp,
 		primary key (coachInfoId)
-		),
+		)
 	create table cupSeason (
 		cupSeasonId integer(5),
 		cupSeasonName varchar(35),

@@ -15,18 +15,15 @@
 
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
-<<<<<<< HEAD
 	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-=======
->>>>>>> origin/master
-	<title>Dash Ball</title>
+	<title>Bolaboli.net</title>
 </head>
 <body>
 <script src="http://code.jquery.com/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <div class="container">
 <div class="row-fluid">
-  <div class="span9"><h1>Dashball.com</h1></div>
+  <div class="span9"><h1>Bolaboli.net</h1></div>
 </div>
 <div class="row-fluid">
   <div class="span12">

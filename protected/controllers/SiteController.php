@@ -28,13 +28,7 @@ class SiteController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$model=new Stadium('search');
-		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Stadium']))
-			$model->attributes=$_GET['Stadium'];
-		// renders the view file 'protected/views/site/index.php'
-		// using the default layout 'protected/views/layouts/main.php'
-		$this->render('index',array('model'=>$model));
+		$this->render('index');
 	}
 
 	/**
