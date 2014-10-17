@@ -17,20 +17,6 @@ $this->pageTitle=Yii::app()->name;
     array('label'=>'<i class="icon-archive"></i> View Archived Projects', 'url'=>'#'),
 );
 ?>
-
-<div id="menuJadwal">
-	<div id="tombolJadwal">
-	<?php echo CHtml::link('Jadwal Minggu Lalu',array('site/index')); ?>
-	</div>
-	
-	<div id="tombolJadwal">
-	<?php echo CHtml::link('Jadwal Minggu Ini',array('site/index')); ?>
-	</div>
-	
-	<div id="tombolJadwal">
-	<?php echo CHtml::link('Jadwal Minggu Depan',array('site/index')); ?>
-	</div>
-</div>
 <br/>
 
 <div id="klasemen">
@@ -52,41 +38,4 @@ $this->pageTitle=Yii::app()->name;
 			<td>56 </td>
 		</tr>
 	</table>
-</div>
-
-<div id="contentJadwal">
-	<h1 id="judulMenu">
-	Judul Menu Aktiv
-	</h1>
-	<hr/>
-	
-	<p>Hari Pertandingan I</p>
-	<table>
-		<tr>
-			<th>Jadwal Pertandingan</th>
-			<th>Tim A </th>
-			<th>Vs </th>
-			<th>Tim B </th>
-			<th>Hasil </th>
-		</tr>
-	</table>
-	
-	<p>Hari Pertandingan II</p>
-	<table>
-		<tr>
-			<td>Jadwal Pertandingan</td>
-			<td>Tim A </td>
-			<td>Vs </td>
-			<td>Tim B </td>
-			<td>Hasil </td>
-		</tr>
-		<tr>
-			<td>Jadwal Pertandingan</td>
-			<td>Tim A </td>
-			<td>Vs </td>
-			<td>Tim B </td>
-			<td>Hasil </td>
-		</tr>
-	</table>
-	
 </div>

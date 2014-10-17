@@ -34,6 +34,10 @@
 	  <li class="active">
 	    <a href="#">Home</a>
 	  </li>
+	  <li><a href="#">Manchester City</a></li>
+	  <li><a href="#">Premier League</a></li>
+	  <li><a href="#">Europe Cup</a></li>
+	  <li><a href="#">Edin Dzeko</a></li>
 	  <li><a href="#">Add My Favourite...</a></li>
 	</ul>
   </div>
@@ -41,10 +45,10 @@
 <div class="row-fluid">
   <div class="span2">
   	<ul class="nav nav-pills nav-stacked">
-      <li><a href="#">Jadwal Pertandingan</a></li>
-      <li><a href="#">Klasemen</a></li>
-      <li><a href="#">Statistik</a></li>
-      <li><a href="#">Info Tim</a></li>
+      <li><a href="#">Schedules</a></li>
+      <li><a href="#">Table</a></li>
+      <li><a href="#">Records</a></li>
+      <li><a href="#">News & Rumours</a></li>
 	</ul>
   </div>
   <div class="span9">
